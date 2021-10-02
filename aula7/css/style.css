@@ -1,0 +1,19 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    header, main, footer {
+        width: 80%;
+        height: auto;
+        margin: 10px;
+    }
+    h1 {
+        background-color: tomato;
+        padding-left: 100px;
+        width: 100%;
+        height: auto;
+        color: #fff;
+        border-bottom: 3px solid black;
+    }
