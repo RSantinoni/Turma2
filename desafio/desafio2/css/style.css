@@ -1,0 +1,47 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header, footer {
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    flex-grow: 1;
+}
+
+main {
+    padding: 20px;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+header {
+    height: 200px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #2196F3, #3D5AFE );
+}
+main {
+    border: 1px solid black;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.envio {
+    background-color: #0D47A1;
+    font-size: 12px;
+    color: #fff;
+}
